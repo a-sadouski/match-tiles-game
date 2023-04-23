@@ -2,4 +2,4 @@
 
 Implementing a Match Tiles Game with JavaScript, PixiJS
 
-cq99080.tw1.ru
+Deployed application: http://cq99080.tw1.ru/
