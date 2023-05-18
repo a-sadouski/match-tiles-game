@@ -59,7 +59,7 @@ export class Game extends Scene {
             matchGroup = this.matchService.getBombMatches(clickedTile);
             this.bustersBoard.changeBombBusterState();
         } else {
-            matchGroup = this.matchService.getMatches(clickedTile);
+            matchGroup = this.matchService.getMatchGroup(clickedTile)
         }
         if (matchGroup.length >= Config.groupSize) {
             this.infoBoard.decreaseTurnsCounter();
